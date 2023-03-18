@@ -12,12 +12,12 @@ import asyncio
 
 from pyrogram import Client as c
 
-API_ID = input("\nEnter Your API_ID:\n > ")
-API_HASH = input("\nEnter Your API_HASH:\n > ")
+API_ID = input("\nEnter Your API_ID:\n > ", "26918221"))
+API_HASH = input("\nEnter Your API_HASH:\n > ", "901d045772fa651ec839f6cc0e69a528"))
 
-print("\n\n Enter Phone number when asked.\n\n")
+print("\n\n Enter Phone number when asked.\n\n", "+919142000419"))
 
-i = c(":memory:", api_id=API_ID, api_hash=API_HASH)
+i = c(":memory:", api_id=API_ID, 901d045772fa651ec839f6cc0e69a528=901d045772fa651ec839f6cc0e69a528)
 
 
 async def main():
